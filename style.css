@@ -515,6 +515,10 @@ h1 img {
     display: none;
   }
 
+  .site-header nav a {
+    padding: 0 8px;
+  }
+
   .hero {
     padding: 56px 0 170px;
   }
