@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BorderlandsSMP | Minecraft Server</title>
+  <meta name="description" content="BorderlandsSMP is a Minecraft survival multiplayer server. Join our Discord and meet the team.">
+  <link rel="icon" href="square.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Pixelify+Sans:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg width="0" height="0" class="sprite" aria-hidden="true">
+    <symbol id="airship" viewBox="0 0 48 30" shape-rendering="crispEdges">
+      <path fill="#a66bff" d="M10 0H36V2H42V4H46V12H42V14H36V16H10V14H4V12H0V4H4V2H10Z"/>
+      <path fill="#7c35f0" d="M0 8H46V12H42V14H36V16H10V14H4V12H0Z"/>
+      <path fill="#e8a33a" d="M14 0H18V16H14ZM30 0H34V16H30Z"/>
+      <path fill="#12081f" d="M14 16H16V22H14ZM32 16H34V22H32Z"/>
+      <path fill="#e8a33a" d="M10 22H38V26H34V28H14V26H10Z"/>
+      <path fill="#12081f" d="M16 23H19V25H16ZM22 23H25V25H22ZM28 23H31V25H28Z"/>
+      <path fill="#c4b5de" d="M46 2H48V14H46Z"/>
+    </symbol>
+    <symbol id="icon-gear" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#e8a33a" fill-rule="evenodd" d="M7 1H9V3H11V2H12V3H13V4H14V5H13V7H15V9H13V11H14V12H13V13H12V14H11V13H9V15H7V13H5V14H4V13H3V12H2V11H3V9H1V7H3V5H2V4H3V3H4V2H5V3H7ZM6 6V10H10V6Z"/>
+    </symbol>
+    <symbol id="icon-airship" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#a66bff" d="M3 1H13V2H15V6H13V7H3V6H1V2H3Z"/>
+      <path fill="#12081f" d="M4 7H5V10H4ZM11 7H12V10H11Z"/>
+      <path fill="#e8a33a" d="M3 10H13V12H12V13H4V12H3Z"/>
+    </symbol>
+    <symbol id="icon-cannon" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#a66bff" d="M1 4H11V9H1Z"/>
+      <path fill="#e8a33a" d="M11 3H14V10H11ZM3 4H4V9H3Z"/>
+      <path fill="#7c35f0" d="M4 9H8V10H9V13H8V14H4V13H3V10H4Z"/>
+      <path fill="#e8a33a" d="M5 11H7V12H5Z"/>
+    </symbol>
+    <symbol id="icon-train" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#7c35f0" d="M3 2H13V11H3Z"/>
+      <path fill="#e8a33a" d="M3 2H13V4H3Z"/>
+      <path fill="#f3ecff" d="M5 5H7V8H5ZM9 5H11V8H9Z"/>
+      <path fill="#a66bff" d="M4 11H6V13H4ZM10 11H12V13H10Z"/>
+      <path fill="#c4b5de" d="M1 14H15V15H1Z"/>
+    </symbol>
+    <symbol id="icon-magic" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#a66bff" d="M6 1H8V5H9V6H13V8H9V9H8V13H6V9H5V8H1V6H5V5H6Z"/>
+      <path fill="#f3ecff" d="M6 6H8V8H6Z"/>
+      <path fill="#e8a33a" d="M12 11H13V12H14V13H13V14H12V13H11V12H12Z"/>
+    </symbol>
+    <symbol id="icon-paw" viewBox="0 0 16 16" shape-rendering="crispEdges">
+      <path fill="#a66bff" d="M1 6H3V9H1ZM5 2H7V6H5ZM9 2H11V6H9ZM13 6H15V9H13Z"/>
+      <path fill="#e8a33a" d="M5 8H11V10H12V13H10V14H6V13H4V10H5Z"/>
+    </symbol>
+    <symbol id="icon-discord" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/>
+    </symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top"><img src="minecraft_title.png" alt="BorderlandsSMP home" width="1024" height="229"></a>
+      <nav aria-label="Main">
+        <a class="nav-about" href="#about">About</a>
+        <a href="team.html">Team</a>
+        <a class="nav-discord" href="https://discord.gg/m4Xe3RqKvv" target="_blank" rel="noopener">Discord</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <svg class="hero-airship hero-airship-left" aria-hidden="true"><use href="#airship"/></svg>
+      <svg class="hero-airship hero-airship-right" aria-hidden="true"><use href="#airship"/></svg>
+
+      <div class="container hero-content">
+        <p class="eyebrow">Minecraft survival multiplayer</p>
+        <h1><img src="minecraft_title.png" alt="BorderlandsSMP" width="1024" height="229"></h1>
+        <p class="hero-text">Join the community on Discord and come play with us.</p>
+        <a class="btn" href="https://discord.gg/m4Xe3RqKvv" target="_blank" rel="noopener">
+          <svg class="btn-icon" aria-hidden="true"><use href="#icon-discord"/></svg>
+          Join our Discord
+        </a>
+      </div>
+
+      <svg class="terrain" viewBox="0 0 1440 200" preserveAspectRatio="xMidYMax slice" shape-rendering="crispEdges" aria-hidden="true">
+        <defs>
+          <pattern id="block" width="40" height="40" patternUnits="userSpaceOnUse">
+            <rect width="40" height="40" fill="#2a1547"/>
+            <rect x="0" y="0" width="20" height="10" fill="#331a57"/>
+            <rect x="20" y="20" width="20" height="10" fill="#331a57"/>
+            <rect x="10" y="30" width="10" height="10" fill="#21103a"/>
+            <rect x="30" y="0" width="10" height="10" fill="#21103a"/>
+          </pattern>
+        </defs>
+        <path fill="url(#block)" d="M0 200V80H120V120H240V40H360V80H520V120H680V160H760V120H920V80H1040V120H1160V40H1280V80H1440V200Z"/>
+        <path fill="none" stroke="#a66bff" stroke-width="6" d="M0 83H120V123H240V43H360V83H520V123H680V163H760V123H920V83H1040V123H1160V43H1280V83H1440"/>
+      </svg>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container about">
+        <img class="about-image" src="logo-amethyst.jpg" alt="BorderlandsSMP logo on a glowing amethyst background" width="900" height="900" loading="lazy">
+        <div class="about-text">
+          <h2>About the server</h2>
+          <p>BorderlandsSMP is a modded Minecraft survival server set on a completely custom map, so this is a world you won't find anywhere else. With more than 100 mods built around Create, you can run working factories, fly your own airships, lay railways and fire heavy cannons.</p>
+          <p>We also use a canon player system, so what you do here becomes part of the server's story.</p>
+          <p>The vibe is part engineering, part adventure, with a community of players from all around the world. Our Discord is the place to say hello and find out how to join.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="mods">
+      <div class="container">
+        <div class="narrow section-heading">
+          <h2>What's on the server</h2>
+          <p>A few of the mods that shape life on BorderlandsSMP.</p>
+        </div>
+
+        <!-- To add a feature, copy a whole <li> block. Cards wrap onto new rows by themselves. -->
+        <ul class="feature-grid">
+          <li class="feature-card">
+            <svg class="feature-icon" aria-hidden="true"><use href="#icon-gear"/></svg>
+            <h3>Machines</h3>
+            <p>Build working contraptions and factories from gears, belts and steam.</p>
+            <small>Create</small>
+          </li>
+          <li class="feature-card">
+            <svg class="feature-icon" aria-hidden="true"><use href="#icon-airship"/></svg>
+            <h3>Airships</h3>
+            <p>Take your builds off the ground and fly them across the map.</p>
+            <small>Create Aeronautics</small>
+          </li>
+          <li class="feature-card">
+            <svg class="feature-icon" aria-hidden="true"><use href="#icon-cannon"/></svg>
+            <h3>Cannons</h3>
+            <p>Build heavy artillery and arm your bases and vehicles with it.</p>
+            <small>Create Big Cannons</small>
+          </li>
+          <li class="feature-card">
+            <svg class="feature-icon" aria-hidden="true"><use href="#icon-train"/></svg>
+            <h3>Railways</h3>
+            <p>Lay track and run your own trains from one place to the next.</p>
+            <small>Steam 'n' Rails</small>
+          </li>
+          <li class="feature-card">
+            <svg class="feature-icon" aria-hidden="true"><use href="#icon-magic"/></svg>
+            <h3>Magic</h3>
+            <p>Collect spellbooks and learn spells when engineering isn't enough.</p>
+            <small>Iron's Spells 'n Spellbooks</small>
+          </li>
+          <li class="feature-card">
+            <svg class="feature-icon" aria-hidden="true"><use href="#icon-paw"/></svg>
+            <h3>Wildlife</h3>
+            <p>Meet new creatures and explore new kinds of landscape.</p>
+            <small>Alex's Mobs, Regions Unexplored</small>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section cta">
+      <div class="container narrow">
+        <h2>Meet the team</h2>
+        <p>Find out who keeps BorderlandsSMP running.</p>
+        <a class="btn" href="team.html">See the team</a>
+      </div>
+    </section>
+
+    <section class="section section-alt cta">
+      <div class="container narrow">
+        <h2>See you in game</h2>
+        <p>Hop into the Discord to meet everyone and get playing.</p>
+        <a class="btn" href="https://discord.gg/m4Xe3RqKvv" target="_blank" rel="noopener">
+          <svg class="btn-icon" aria-hidden="true"><use href="#icon-discord"/></svg>
+          Join our Discord
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>BorderlandsSMP is a fan-run server, not affiliated with Mojang or Microsoft.</p>
+    </div>
+  </footer>
+</body>
+</html>
